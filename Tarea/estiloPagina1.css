@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+  font-size: 30px;
+}
+.volver {
+  background-color: lightsalmon;
+  display: inline-block;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+
+.encabezado {
+  background-color: rgba(75, 75, 230, 0.644);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.izq {
+  background-color: red;
+  display: inline-block;
+  height: 400px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.der {
+  background-color: green;
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.pie {
+  background-color: white;
+}
