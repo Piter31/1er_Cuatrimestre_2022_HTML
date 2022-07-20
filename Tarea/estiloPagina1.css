@@ -3,10 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: lightblue;
   font-size: 30px;
 }
+
 .volver {
   background-color: lightsalmon;
   display: inline-block;
@@ -18,28 +20,36 @@ body {
 }
 
 .encabezado {
-  background-color: rgba(75, 75, 230, 0.644);
+  background-color: rgba(85, 216, 205, 0.705);
+  height: 250;
   border-radius: 15px;
   text-align: center;
+  margin: 3px;
+  border: solid rgba(92, 91, 91, 0.822);
 }
 
 .izq {
   background-color: red;
   display: inline-block;
   height: 400px;
-  width: 150px;
+  width: 750px;
   border-radius: 10px;
+  margin: 3px 5px 2px;
+  border: solid rgba(92, 91, 91, 0.822);
 }
 
 .der {
   background-color: green;
   display: inline-block;
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  width: 500px;
   border-radius: 10px;
+  border: solid rgba(92, 91, 91, 0.822);
 }
 
 .pie {
   background-color: white;
   border-radius: 5px;
+  margin: 5px;
+  border: solid rgba(92, 91, 91, 0.822);
 }
