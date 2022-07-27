@@ -21,7 +21,7 @@ body {
 
 .encabezado {
   background-color: rgba(85, 216, 205, 0.705);
-  height: 250;
+  height: 450;
   border-radius: 15px;
   text-align: center;
   margin: 3px;
@@ -49,6 +49,7 @@ body {
 
 .pie {
   background-color: white;
+  height: 100px;
   border-radius: 5px;
   margin: 5px;
   border: solid rgba(92, 91, 91, 0.822);
