@@ -10,7 +10,6 @@ body {
 }
 
 .volver {
-  background-color: lightsalmon;
   display: inline-block;
   flex-wrap: wrap;
   font-size: 20px;
