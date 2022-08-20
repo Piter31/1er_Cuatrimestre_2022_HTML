@@ -1,0 +1,28 @@
+
+
+.navbar  {
+    background-color: rgba(49, 175, 184, 0.445);
+}
+
+
+.carousel-item > img {
+    width: 600px;
+    align-content: center;
+}
+/* 
+estilo del codigo arriba del carrusel
+
+.card-body > a.btn-primary {
+    background-color: lightseagreen;
+}
+
+.card-body > a.btn-primary:visited {
+    color: black;
+}
+
+.card-body > a.btn-primary:hover {
+    color: white;
+    background-color: rgba(58, 33, 82, 0.534);
+}
+*/
+

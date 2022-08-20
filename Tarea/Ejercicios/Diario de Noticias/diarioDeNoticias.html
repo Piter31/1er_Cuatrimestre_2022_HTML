@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portal De Noticias</title>
+    <link rel="stylesheet" href="C:\Users\JUAN\Desktop\Desarrollo Web - Full Stack (Material de estudio)\Programacion\Ejercicios\Ejercicio diario de Noticias\styleDiario.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg"><!-- bg-light -->
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Web de Noticias</a>
+           <!-- <button 
+                class="navbar-toggler"
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNavDropdown" 
+                aria-controls="navbarNavDropdown" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Argentina</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Mundo</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Deportes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Espectaculos</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <h1 class="d-block text-center">Portal de Noticias</h1>
+  <!--
+   <div class="container text-center">
+      <div class="row">
+        <div class="col my-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <img
+              src="https://19640noticias.com/download/multimedia.normal.9ca968c01ae122db.565444465f6e6f726d616c2e77656270.webp"
+              class="card-img-top"
+              alt="Motoqueros"
+            />
+            <a href="#" class="btn btn-link">Ampliar noticia</a>
+          </div>
+        </div>
+
+        <div class="col my-3">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://19640noticias.com/download/multimedia.normal.9ca968c01ae122db.565444465f6e6f726d616c2e77656270.webp"
+              class="card-img-top"
+              alt="Motoqueros"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Titula de Tarjeta</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button type="button" class="btn btn-outline-primary">Ampliar noticia</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
+
+<!--
+  <div class="card text-center">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Titulo Especial</h5>
+      <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/CAXKFDMCYRGXDEM65YCV6X2PYI.png" alt="Seleccion Argentina">
+      <p class="card-text">La seleccion Argentina levantando la copa despues del triunfo</p>
+      <a href="#" class="btn btn-primary">Ampliar Noticia</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/CAXKFDMCYRGXDEM65YCV6X2PYI.png" class="d-block" alt="Seleccion Argentina">
+    </div>
+    <div class="carousel-item">
+      <img src="https://tn.com.ar/resizer/SSoffseIQg2MRNyaHLjCdMqi8X8=/767x0/smart/cloudfront-us-east-1.images.arcpublishing.com/artear/Q2KF677CAJB3XIIGAYFW7BDCRQ.jpg" class="d-block" alt="Leonel Messi">
+    </div>
+    <div class="carousel-item">
+      <img src="https://e00-ar-marca.uecdn.es/claro/assets/multimedia/imagenes/2022/06/23/16560118820547.jpg" class="d-block" alt="Seleccion Argentina">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+
+</html>
