@@ -1,0 +1,32 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.especial {
+    text-decoration: overline;
+}
+
+p.destacado {
+    color: red;
+}
+
+p.destacado {
+    color: green;
+}
+
+#unico {
+    color: blue;
+}
+
+ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+.boton:hover {
+    background-color: rgba(255, 0, 0, 0.651);
+}
+
+.boton:active {
+    background-color: green;
+}
